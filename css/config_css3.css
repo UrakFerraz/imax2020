@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+:root {--thin: 100; --extra-light: 200; --light: 300; --regular: 400; --medium: 500; --semi-bold: 600; --bold: 700; --extra-bold: 800; --black: 900; --redColor: #CA2332; --orangeColor: #FFA96B; --yellowColor: #EEE8A9; --greenColor: #5DBFBE; --darkGreenColorOne: #164845; --darkGreenColorTwo: #156d79; --darkBlueColor: #162f57; --goldColor: #e1d3b6; --blueColor: #1771F1; --grayColor: #939598; --principalColor: #231F20; --mediumGrayColor: #BCBEC0; --lightGrayColor: #E0E5EC; --imaxGradient: linear-gradient(27deg, rgba(202,50,35,1) 0%, rgba(101,104,113,1) 50%, rgba(93,191,190,1) 100%); }
+body,html{scroll-behavior:smooth}
+body{background-color:var(--greenColor)}
+html,body,div,input,p,span,h1,h2,h3,h4,h5,h6,ul,li,header,section,select,article,button,a,textarea{margin:0;padding:0;outline:none;border:none;background:transparent;font-family:'Montserrat',sans-serif;text-decoration:none;-webkit-transition:.5s ease all;-o-transition:.5s ease all;transition:.5s ease all}
+.fullContainer{display:-ms-grid;display:grid;-ms-grid-columns:(1fr)[2];grid-template-columns:repeat(2,1fr);position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;overflow-x:hidden;max-width:2000px;width:100vw;margin:0 auto;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;scroll-behavior:smooth;z-index:4}
+.fullContainerLinks{display:block;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;overflow-x:hidden;width:100vw;max-width:2000px;margin:0 auto;scroll-behavior:smooth;z-index:4}
+.boxModel{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:block}
+.boxModelFlex{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex}
+.boxModelGrid{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:-ms-grid;display:grid}
+h1,h2,h3,h4,h5,h6,p,span,a{color:var(--principalColor);display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:relative}
+h1{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;font-size:50px}
+h2{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;font-size:32px}
+h3{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;font-size:25px}
+h4{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;font-size:20px}
+h5{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;font-size:18px}
+a,p{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;font-size:20px}
+span{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;display:block;font-size:16px}
+.aLink{font-weight:var(--light);cursor:pointer;z-index:2}
+.aLink::before{content:'';width:calc(100% + 20px);height:0;background-color:var(--mediumGrayColor);position:absolute;bottom:-13%;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);-webkit-transition:.3s cubic-bezier(0.77,0,0.175,1) all;-o-transition:.3s cubic-bezier(0.77,0,0.175,1) all;transition:.3s cubic-bezier(0.77,0,0.175,1) all;z-index:-1}
+.aLink:hover::before{height:120%}
+p{line-height:1.4}
+amp-img.contain img{-o-object-fit:cover;object-fit:cover}
+amp-img.cover img{-o-object-fit:cover;object-fit:cover}
+svg{display:block;-webkit-box-sizing:border-box;box-sizing:border-box;position:relative}
+input{padding:10px;width:100%}
+input::-webkit-input-placeholder{font-size:20px;color:var(--principalColor);font-weight:var(--medium)}
+input::-moz-placeholder{font-size:20px;color:var(--principalColor);font-weight:var(--medium)}
+input:-ms-input-placeholder{font-size:20px;color:var(--principalColor);font-weight:var(--medium)}
+input::-ms-input-placeholder{font-size:20px;color:var(--principalColor);font-weight:var(--medium)}
+input::placeholder,input{font-size:20px;color:var(--principalColor);font-weight:var(--medium)}

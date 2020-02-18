@@ -1,0 +1,227 @@
+@-webkit-keyframes inOut {
+50%{-webkit-transform:scale(1.02);transform:scale(1.02)}
+}
+@keyframes inOut {
+50%{-webkit-transform:scale(1.02);transform:scale(1.02)}
+}
+@-webkit-keyframes inOutOne {
+50%{-webkit-transform:scale(1.3);transform:scale(1.3)}
+}
+@keyframes inOutOne {
+50%{-webkit-transform:scale(1.3);transform:scale(1.3)}
+}
+@-webkit-keyframes float {
+50%{-webkit-transform:translateY(10px);transform:translateY(10px)}
+}
+@keyframes float {
+50%{-webkit-transform:translateY(10px);transform:translateY(10px)}
+}
+@-webkit-keyframes floatTwo {
+50%{-webkit-transform:translateY(30px);transform:translateY(30px)}
+}
+@keyframes floatTwo {
+50%{-webkit-transform:translateY(30px);transform:translateY(30px)}
+}
+@-webkit-keyframes floatThree {
+50%{-webkit-transform:translateY(10%);transform:translateY(10%)}
+}
+@keyframes floatThree {
+50%{-webkit-transform:translateY(10%);transform:translateY(10%)}
+}
+@-webkit-keyframes floatLeft {
+50%{-webkit-transform:translateX(10px);transform:translateX(10px)}
+}
+@keyframes floatLeft {
+50%{-webkit-transform:translateX(10px);transform:translateX(10px)}
+}
+@-webkit-keyframes floatOne {
+50%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}
+}
+@keyframes floatOne {
+50%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}
+}
+@-webkit-keyframes floatLow {
+50%{-webkit-transform:translateY(5px);transform:translateY(5px)}
+}
+@keyframes floatLow {
+50%{-webkit-transform:translateY(5px);transform:translateY(5px)}
+}
+@-webkit-keyframes herArmRotate {
+50%{-webkit-transform:rotate(30deg);transform:rotate(30deg)}
+}
+@keyframes herArmRotate {
+50%{-webkit-transform:rotate(30deg);transform:rotate(30deg)}
+}
+@-webkit-keyframes totalRotate {
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@keyframes totalRotate {
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@-webkit-keyframes himArmRotate {
+50%{-webkit-transform:rotate(20deg);transform:rotate(20deg)}
+}
+@keyframes himArmRotate {
+50%{-webkit-transform:rotate(20deg);transform:rotate(20deg)}
+}
+@-webkit-keyframes floatZoom {
+50%{-webkit-transform:translateY(-10px) translateX(-10px) scale(1.2);transform:translateY(-10px) translateX(-10px) scale(1.2)}
+}
+@keyframes floatZoom {
+50%{-webkit-transform:translateY(-10px) translateX(-10px) scale(1.2);transform:translateY(-10px) translateX(-10px) scale(1.2)}
+}
+@-webkit-keyframes rotateHead {
+50%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}
+}
+@keyframes rotateHead {
+50%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}
+}
+@-webkit-keyframes rotateLegs {
+50%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}
+}
+@keyframes rotateLegs {
+50%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}
+}
+@-webkit-keyframes rotateTorso {
+50%{-webkit-transform:rotate(3deg);transform:rotate(3deg)}
+}
+@keyframes rotateTorso {
+50%{-webkit-transform:rotate(3deg);transform:rotate(3deg)}
+}
+@-webkit-keyframes rotateLeg {
+50%{-webkit-transform:rotate(34deg);transform:rotate(34deg)}
+}
+@keyframes rotateLeg {
+50%{-webkit-transform:rotate(34deg);transform:rotate(34deg)}
+}
+@-webkit-keyframes rotateOne {
+50%{-webkit-transform:rotate(14deg);transform:rotate(14deg)}
+}
+@keyframes rotateOne {
+50%{-webkit-transform:rotate(14deg);transform:rotate(14deg)}
+}
+@-webkit-keyframes rotateOneReverse {
+50%{-webkit-transform:rotate(-14deg);transform:rotate(-14deg)}
+}
+@keyframes rotateOneReverse {
+50%{-webkit-transform:rotate(-14deg);transform:rotate(-14deg)}
+}
+@-webkit-keyframes rotateOneReverseLow {
+50%{-webkit-transform:rotate(-7deg);transform:rotate(-7deg)}
+}
+@keyframes rotateOneReverseLow {
+50%{-webkit-transform:rotate(-7deg);transform:rotate(-7deg)}
+}
+@-webkit-keyframes rotateTwo {
+50%{-webkit-transform:rotate(14deg);transform:rotate(14deg)}
+69%{-webkit-transform:rotate(40deg);transform:rotate(40deg)}
+}
+@keyframes rotateTwo {
+50%{-webkit-transform:rotate(14deg);transform:rotate(14deg)}
+69%{-webkit-transform:rotate(40deg);transform:rotate(40deg)}
+}
+@-webkit-keyframes rotateThree {
+50%{-webkit-transform:rotate(20deg);transform:rotate(20deg)}
+}
+@keyframes rotateThree {
+50%{-webkit-transform:rotate(20deg);transform:rotate(20deg)}
+}
+.letterB,.letterE,.letterM,.letterhifem,.letterV1,.letterI,.letterN1,.letterD,.letterArroba,.letterA1,.letterO1,.letterN2,.letterO2,.letterV2,.letterO3{-webkit-animation-name:inOut;animation-name:inOut;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%}
+.letterB{-webkit-animation-delay:100ms;animation-delay:100ms}
+.letterE{-webkit-animation-delay:200ms;animation-delay:200ms}
+.letterM{-webkit-animation-delay:300ms;animation-delay:300ms}
+.letterhifem{-webkit-animation-delay:400ms;animation-delay:400ms}
+.letterV1{-webkit-animation-delay:500ms;animation-delay:500ms}
+.letterI{-webkit-animation-delay:600ms;animation-delay:600ms}
+.letterN1{-webkit-animation-delay:700ms;animation-delay:700ms}
+.letterD{-webkit-animation-delay:800ms;animation-delay:800ms}
+.letterArroba{-webkit-animation-delay:900ms;animation-delay:900ms}
+.letterA1{-webkit-animation-delay:1000ms;animation-delay:1000ms}
+.letterO1{-webkit-animation-delay:1100ms;animation-delay:1100ms}
+.letterN2{-webkit-animation-delay:1200ms;animation-delay:1200ms}
+.letterO2{-webkit-animation-delay:1300ms;animation-delay:1300ms}
+.letterV2{-webkit-animation-delay:1400ms;animation-delay:1400ms}
+.letterO3{-webkit-animation-delay:1500ms;animation-delay:1500ms}
+.janela1{-webkit-animation-name:float;animation-name:float;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-animation-timing-function:cubic-bezier(0.86,0,0.07,1);animation-timing-function:cubic-bezier(0.86,0,0.07,1)}
+.janela2{-webkit-animation-name:float;animation-name:float;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-animation-timing-function:cubic-bezier(0.86,0,0.07,1);animation-timing-function:cubic-bezier(0.86,0,0.07,1)}
+.herArm{-webkit-animation-name:herArmRotate;animation-name:herArmRotate;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:10% 67%;-ms-transform-origin:10% 67%;transform-origin:10% 67%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#ballon1{-webkit-animation-name:floatZoom;animation-name:floatZoom;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:31% 61%;-ms-transform-origin:31% 61%;transform-origin:31% 61%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#ballon2{-webkit-animation-name:floatZoom;animation-name:floatZoom;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:31% 61%;-ms-transform-origin:31% 61%;transform-origin:31% 61%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#msg1{-webkit-animation-name:float;animation-name:float;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:31% 61%;-ms-transform-origin:31% 61%;transform-origin:31% 61%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#msg2{-webkit-animation-name:floatLow;animation-name:floatLow;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:31% 61%;-ms-transform-origin:31% 61%;transform-origin:31% 61%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+.men2Head{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:67% 38%;-ms-transform-origin:67% 38%;transform-origin:67% 38%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+.men2Arm{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:63% 41%;-ms-transform-origin:63% 41%;transform-origin:63% 41%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+.men2Leg1{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateLegs;animation-name:rotateLegs;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:60% 49%;-ms-transform-origin:60% 49%;transform-origin:60% 49%;-webkit-animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95);animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95)}
+.men2Leg2{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateLegs;animation-name:rotateLegs;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:600ms;animation-delay:600ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:65% 50%;-ms-transform-origin:65% 50%;transform-origin:65% 50%;-webkit-animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95);animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95)}
+#calculadora{-webkit-animation-name:floatOne;animation-name:floatOne;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:700ms;animation-delay:700ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:31% 61%;-ms-transform-origin:31% 61%;transform-origin:31% 61%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+.menTorso{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateTorso;animation-name:rotateTorso;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:600ms;animation-delay:600ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:79% 77%;-ms-transform-origin:79% 77%;transform-origin:79% 77%;-webkit-animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95);animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95)}
+.menHead{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:77% 60%;-ms-transform-origin:77% 60%;transform-origin:77% 60%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#windowSvg3{-webkit-transform:translateY(110px);-ms-transform:translateY(110px);transform:translateY(110px);-webkit-animation-name:floatTwo;animation-name:floatTwo;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:700ms;animation-delay:700ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:31% 61%;-ms-transform-origin:31% 61%;transform-origin:31% 61%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#playmobilTwoTorso{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateTorso;animation-name:rotateTorso;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:600ms;animation-delay:600ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:44% 78%;-ms-transform-origin:44% 78%;transform-origin:44% 78%;-webkit-animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95);animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95)}
+#playmobilTwoArmOne{-webkit-animation-name:himArmRotate;animation-name:himArmRotate;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:42% 64%;-ms-transform-origin:42% 64%;transform-origin:42% 64%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#playmobilTwoArm{-webkit-animation-name:himArmRotate;animation-name:himArmRotate;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-delay:600ms;animation-delay:600ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:48% 64%;-ms-transform-origin:48% 64%;transform-origin:48% 64%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#playmobilOneTorso{-webkit-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg);-webkit-animation-name:rotateTorso;animation-name:rotateTorso;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:200ms;animation-delay:200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:67% 69%;-ms-transform-origin:67% 69%;transform-origin:67% 69%;-webkit-animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95);animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95)}
+#playmobilOneHead{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:69% 60%;-ms-transform-origin:69% 60%;transform-origin:69% 60%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#playmobilOneArmTwo{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:70% 65%;-ms-transform-origin:70% 65%;transform-origin:70% 65%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#playmobilOneArmOne{-webkit-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg);-webkit-animation-name:rotateLeg;animation-name:rotateLeg;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:200ms;animation-delay:200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:67% 65%;-ms-transform-origin:67% 65%;transform-origin:67% 65%;-webkit-animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95);animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95)}
+#her3Torso{-webkit-transform:rotate(-4deg);-ms-transform:rotate(-4deg);transform:rotate(-4deg);-webkit-animation-name:rotateTorso;animation-name:rotateTorso;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:200ms;animation-delay:200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:17% 78%;-ms-transform-origin:17% 78%;transform-origin:17% 78%;-webkit-animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95);animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95)}
+#her3Head{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:14% 62%;-ms-transform-origin:14% 62%;transform-origin:14% 62%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#her3Arm{-webkit-animation-name:rotateOneReverse;animation-name:rotateOneReverse;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:500ms;animation-delay:500ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:13% 64%;-ms-transform-origin:13% 64%;transform-origin:13% 64%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#her4Torso{-webkit-transform:rotate(-4deg);-ms-transform:rotate(-4deg);transform:rotate(-4deg);-webkit-animation-name:rotateTorso;animation-name:rotateTorso;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-delay:200ms;animation-delay:200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:85% 70%;-ms-transform-origin:85% 70%;transform-origin:85% 70%;-webkit-animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95);animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95)}
+#her4Head{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:86% 64%;-ms-transform-origin:86% 64%;transform-origin:86% 64%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#her4ArmOne{-webkit-transform:rotate(-18deg);-ms-transform:rotate(-18deg);transform:rotate(-18deg);-webkit-animation-name:rotateTorso;animation-name:rotateTorso;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:200ms;animation-delay:200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:83% 65%;-ms-transform-origin:83% 65%;transform-origin:83% 65%;-webkit-animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95);animation-timing-function:cubic-bezier(0.445,0.05,0.55,0.95)}
+#windowSeven{-webkit-animation-name:float;animation-name:float;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-animation-timing-function:cubic-bezier(0.86,0,0.07,1);animation-timing-function:cubic-bezier(0.86,0,0.07,1);-webkit-transform:translateY(20px);-ms-transform:translateY(20px);transform:translateY(20px)}
+#objOne{-webkit-animation-name:float;animation-name:float;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:700ms;animation-delay:700ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-animation-timing-function:cubic-bezier(0.86,0,0.07,1);animation-timing-function:cubic-bezier(0.86,0,0.07,1)}
+#playmobilSixTorso{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:13% 74%;-ms-transform-origin:13% 74%;transform-origin:13% 74%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#playmobilSixArmOne{-webkit-transform:rotate(5deg);-ms-transform:rotate(5deg);transform:rotate(5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:8% 56%;-ms-transform-origin:8% 56%;transform-origin:8% 56%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#playmobilSixArm{-webkit-transform:rotate(5deg);-ms-transform:rotate(5deg);transform:rotate(5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:15% 58%;-ms-transform-origin:15% 58%;transform-origin:15% 58%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#playmobilSixHead{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:11% 53%;-ms-transform-origin:11% 53%;transform-origin:11% 53%}
+#herFiveTorso{-webkit-animation-name:rotateOneReverse;animation-name:rotateOneReverse;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:41% 64%;-ms-transform-origin:41% 64%;transform-origin:41% 64%}
+#herFiveArmOne{-webkit-animation-name:rotateOneReverse;animation-name:rotateOneReverse;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:47% 50%;-ms-transform-origin:47% 50%;transform-origin:47% 50%}
+#herFiveArmNote{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:43% 55%;-ms-transform-origin:43% 55%;transform-origin:43% 55%}
+#herFiveHead{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:43% 47%;-ms-transform-origin:43% 47%;transform-origin:43% 47%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#herSixTorso{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:13s;animation-duration:13s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:57% 62%;-ms-transform-origin:57% 62%;transform-origin:57% 62%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+#herSixArmTwo{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:62% 53%;-ms-transform-origin:62% 53%;transform-origin:62% 53%}
+#herSixHead{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:8s;animation-duration:8s;-webkit-animation-delay:600ms;animation-delay:600ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:61% 47%;-ms-transform-origin:61% 47%;transform-origin:61% 47%}
+#herSixArmOne{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:1200ms;animation-delay:1200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:58% 53%;-ms-transform-origin:58% 53%;transform-origin:58% 53%}
+#playmobilFiveArm{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:82% 58%;-ms-transform-origin:82% 58%;transform-origin:82% 58%}
+#playmobilArmPart{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:80% 66%;-ms-transform-origin:80% 66%;transform-origin:80% 66%}
+#playmobilFiveHead{-webkit-transform:rotate(-20deg);-ms-transform:rotate(-20deg);transform:rotate(-20deg);-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:1200ms;animation-delay:1200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:86% 56%;-ms-transform-origin:86% 56%;transform-origin:86% 56%}
+#engrenagens path:nth-of-type(1){-webkit-animation-name:totalRotate;animation-name:totalRotate;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:77.45% 13.3%;-ms-transform-origin:77.45% 13.3%;transform-origin:77.45% 13.3%}
+#engrenagens path:nth-of-type(2){-webkit-animation-name:totalRotate;animation-name:totalRotate;-webkit-animation-duration:2.5s;animation-duration:2.5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:82.67% 27.15%;-ms-transform-origin:82.67% 27.15%;transform-origin:82.67% 27.15%}
+#exclamation{-webkit-animation-name:floatThree;animation-name:floatThree;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:82.67% 27.15%;-ms-transform-origin:82.67% 27.15%;transform-origin:82.67% 27.15%}
+#bigPlaymobilArm{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:8s;animation-duration:8s;-webkit-animation-delay:1200ms;animation-delay:1200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:51% 54%;-ms-transform-origin:51% 54%;transform-origin:51% 54%}
+#bigPlaymobilHead{-webkit-transform:rotate(-20deg);-ms-transform:rotate(-20deg);transform:rotate(-20deg);-webkit-animation-name:rotateTorso;animation-name:rotateTorso;-webkit-animation-duration:9s;animation-duration:9s;-webkit-animation-delay:1200ms;animation-delay:1200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:44% 46%;-ms-transform-origin:44% 46%;transform-origin:44% 46%}
+#playmobilSevenArmOne{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:20% 65%;-ms-transform-origin:20% 65%;transform-origin:20% 65%}
+#playmobilSevenArm{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:400ms;animation-delay:400ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:15% 64%;-ms-transform-origin:15% 64%;transform-origin:15% 64%}
+#playmobilSevenTorso{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:400ms;animation-delay:400ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:19% 75%;-ms-transform-origin:19% 75%;transform-origin:19% 75%}
+#hetSitTorso{-webkit-animation-name:rotateOneReverseLow;animation-name:rotateOneReverseLow;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:400ms;animation-delay:400ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:61% 80%;-ms-transform-origin:61% 80%;transform-origin:61% 80%}
+#herSitLeg{-webkit-animation-name:rotateHead;animation-name:rotateHead;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:70% 81%;-ms-transform-origin:70% 81%;transform-origin:70% 81%}
+#herSitArm{-webkit-animation-name:rotateOneReverseLow;animation-name:rotateOneReverseLow;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:800ms;animation-delay:800ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:59% 70%;-ms-transform-origin:59% 70%;transform-origin:59% 70%}
+#herSitArmCup{-webkit-transform:rotate(-20deg);-ms-transform:rotate(-20deg);transform:rotate(-20deg);-webkit-animation-name:rotateOneReverseLow;animation-name:rotateOneReverseLow;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:300ms;animation-delay:300ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:63% 73%;-ms-transform-origin:63% 73%;transform-origin:63% 73%;-webkit-animation-timing-function:cubic-bezier(0.075,0.82,0.165,1);animation-timing-function:cubic-bezier(0.075,0.82,0.165,1)}
+@keyframes rotateOneReverse {
+50%{-webkit-transform:rotate(-14deg);transform:rotate(-14deg)}
+}
+@keyframes rotateOneReverseLow {
+50%{-webkit-transform:rotate(-7deg);transform:rotate(-7deg)}
+}
+#checksSvgs g:nth-of-type(1){-webkit-animation-name:inOutOne;animation-name:inOutOne;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-delay:600ms;animation-delay:600ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:79% 24%;-ms-transform-origin:79% 24%;transform-origin:79% 24%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#checksSvgs g:nth-of-type(2){-webkit-animation-name:inOutOne;animation-name:inOutOne;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:63% 19%;-ms-transform-origin:63% 19%;transform-origin:63% 19%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#checksSvgs g:nth-of-type(3){-webkit-animation-name:inOutOne;animation-name:inOutOne;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:1000ms;animation-delay:1000ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:49% 14%;-ms-transform-origin:49% 14%;transform-origin:49% 14%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#checksSvgs g:nth-of-type(4){-webkit-animation-name:inOutOne;animation-name:inOutOne;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-delay:1200ms;animation-delay:1200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:36% 19%;-ms-transform-origin:36% 19%;transform-origin:36% 19%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#checksSvgs g:nth-of-type(5){-webkit-animation-name:inOutOne;animation-name:inOutOne;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:700ms;animation-delay:700ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:25% 11%;-ms-transform-origin:25% 11%;transform-origin:25% 11%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#checksSvgs g:nth-of-type(6){-webkit-animation-name:inOutOne;animation-name:inOutOne;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:1500ms;animation-delay:1500ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:13% 20%;-ms-transform-origin:13% 20%;transform-origin:13% 20%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#checksSvgs g:nth-of-type(7){-webkit-animation-name:inOutOne;animation-name:inOutOne;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:74% 12%;-ms-transform-origin:74% 12%;transform-origin:74% 12%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#window1{-webkit-animation-name:floatLeft;animation-name:floatLeft;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-animation-timing-function:cubic-bezier(0.86,0,0.07,1);animation-timing-function:cubic-bezier(0.86,0,0.07,1);-webkit-transform:translateX(-20px);-ms-transform:translateX(-20px);transform:translateX(-20px)}
+#window2{-webkit-animation-name:float;animation-name:float;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-delay:200ms;animation-delay:200ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-animation-timing-function:cubic-bezier(0.86,0,0.07,1);animation-timing-function:cubic-bezier(0.86,0,0.07,1)}
+#window3{-webkit-animation-name:float;animation-name:float;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-delay:500ms;animation-delay:500ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-animation-timing-function:cubic-bezier(0.86,0,0.07,1);animation-timing-function:cubic-bezier(0.86,0,0.07,1)}
+#womanTwo{-webkit-animation-name:rotateTorso;animation-name:rotateTorso;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:36% 76%;-ms-transform-origin:36% 76%;transform-origin:36% 76%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#womanTwoLegAmin{-webkit-animation-name:rotateLeg;animation-name:rotateLeg;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:700ms;animation-delay:700ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:35% 87%;-ms-transform-origin:35% 87%;transform-origin:35% 87%;-webkit-animation-timing-function:cubic-bezier(0.86,0,0.07,1);animation-timing-function:cubic-bezier(0.86,0,0.07,1)}
+#womanTwoTop{-webkit-animation-name:rotateOne;animation-name:rotateOne;-webkit-animation-duration:10s;animation-duration:10s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:36% 76%;-ms-transform-origin:36% 76%;transform-origin:36% 76%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#womanTwoArm{-webkit-animation-name:rotateTwo;animation-name:rotateTwo;-webkit-animation-duration:6s;animation-duration:6s;-webkit-animation-delay:400ms;animation-delay:400ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:34% 69%;-ms-transform-origin:34% 69%;transform-origin:34% 69%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#womanTwoHead{-webkit-animation-name:rotateThree;animation-name:rotateThree;-webkit-animation-duration:9s;animation-duration:9s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:33% 67%;-ms-transform-origin:33% 67%;transform-origin:33% 67%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#menThreeTop{-webkit-animation-name:rotateTorso;animation-name:rotateTorso;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:400ms;animation-delay:400ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:80% 77%;-ms-transform-origin:80% 77%;transform-origin:80% 77%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);-webkit-transform:rotate(-3deg);-ms-transform:rotate(-3deg);transform:rotate(-3deg)}
+#menThreeHead{-webkit-animation-name:rotateThree;animation-name:rotateThree;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-delay:100ms;animation-delay:100ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:83% 65%;-ms-transform-origin:83% 65%;transform-origin:83% 65%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}
+#menThreeLeftArm{-webkit-animation-name:rotateOne;animation-name:rotateOne;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:400ms;animation-delay:400ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:82% 69%;-ms-transform-origin:82% 69%;transform-origin:82% 69%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);-webkit-transform:rotate(-3deg);-ms-transform:rotate(-3deg);transform:rotate(-3deg)}
+#menThreeRightArm{-webkit-animation-name:rotateOneReverse;animation-name:rotateOneReverse;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:400ms;animation-delay:400ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:84% 70%;-ms-transform-origin:84% 70%;transform-origin:84% 70%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);-webkit-transform:rotate(3deg);-ms-transform:rotate(3deg);transform:rotate(3deg)}
+#menTreePage{-webkit-animation-name:floatOne;animation-name:floatOne;-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-delay:400ms;animation-delay:400ms;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform-origin:84% 70%;-ms-transform-origin:84% 70%;transform-origin:84% 70%;-webkit-animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275);animation-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)}

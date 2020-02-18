@@ -1,0 +1,65 @@
+.registroFormWrapper {
+	border-radius: 10px;
+	padding: 40px;
+	box-shadow: 0 0 40px rgba(0,0,0,.3);
+	grid-gap: 40px;
+}
+
+.registroFormWrapper input {
+	border-radius: 5px;
+	border: 1px solid var(--greenColor);
+}
+
+.registroFormWrapper h3 {
+	text-align: center;
+}
+
+.sectionRegistro {
+	background-color: #fff;
+	grid-column: 1 / -1;
+	padding: 100px 10vw;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1.6fr;
+}
+
+.registroCheckPoints {
+	align-content: start;
+	grid-gap: 30px;
+}
+
+.registroTextsUnit {
+	grid-template-columns: 23px auto;
+	grid-gap: 6px;
+}
+
+.registroTextsUnit p {
+	font-weight: var(--medium);
+}
+
+.registroTextsUnit svg {
+	top: 3px;
+	fill: var(--greenColor);
+}
+
+.registroFormWrapper button {
+	padding: 30px;
+	font-weight: var(--medium);
+	background-color: var(--greenColor);
+	align-self: center;
+	justify-self: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.registroFormWrapper button:hover {
+	background-color: var(--redColor);
+}
+
+
+.heroTitle p {
+	margin-bottom: 70px;
+}
+
+.mobileMenuBtns .heroCTABtn {
+	visibility: hidden;
+}
